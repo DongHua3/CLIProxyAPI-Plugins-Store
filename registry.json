@@ -2044,6 +2044,21 @@
         "Claude",
         "Codex"
       ]
+    },
+    {
+      "id": "antigravity-category-plugin",
+      "name": "Antigravity Category Quota",
+      "description": "Shows both Gemini and Claude/GPT quota groups for Antigravity accounts in the Management Center, and adds an Antigravity quota dashboard.",
+      "author": "Azurefly",
+      "repository": "https://github.com/Azurefly/antigravity-category-plugin",
+      "homepage": "https://github.com/Azurefly/antigravity-category-plugin",
+      "license": "MIT",
+      "tags": [
+        "Antigravity",
+        "Quota",
+        "Gemini",
+        "Management Center"
+      ]
     }
   ]
 }
