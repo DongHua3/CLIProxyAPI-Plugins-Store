@@ -1713,7 +1713,7 @@
     {
       "id": "codexreflow",
       "name": "CodexReflow",
-      "description": "Codex reasoning continuation and HTTP/SSE/WebSocket event folding, with automatic GPT text-name matching and payload-free diagnostics.",
+      "description": "为解决 GPT 思维链截断问题而做，让没想完的推理接着往下走。针对 516 等 518n-2 截断特征，满足条件时自动续接并合并回答。支持 HTTP/SSE 与 WebSocket，新配置自动匹配 GPT-5+ 标准文本模型，无需手写名单。 / Built to address GPT reasoning truncation and keep unfinished thinking going. Detects 518n-2 patterns (such as 516 tokens), continues eligible requests, and merges responses over HTTP/SSE and WebSocket. Fresh configurations automatically match standard GPT-5+ text model names, without manual lists.",
       "author": "LaoPiLao",
       "repository": "https://github.com/LaoPiLao/cpa-plugin-codexreflow",
       "homepage": "https://github.com/LaoPiLao/cpa-plugin-codexreflow",
