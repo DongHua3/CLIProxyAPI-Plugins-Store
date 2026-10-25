@@ -2098,6 +2098,7 @@
       "author": "cr1cr1",
       "repository": "https://github.com/cr1cr1/cpa-auth-zai",
       "homepage": "https://github.com/cr1cr1/cpa-auth-zai",
+      "logo": "https://raw.githubusercontent.com/cr1cr1/cpa-auth-zai/refs/heads/main/zai.svg",
       "license": "MIT",
       "tags": [
         "Provider",
@@ -2107,7 +2108,8 @@
         "GLM",
         "Executor",
         "Quota",
-        "Usage"
+        "Usage",
+        "Streaming"
       ]
     }
   ]
