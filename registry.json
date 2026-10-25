@@ -2090,6 +2090,23 @@
         "Quota"
       ],
       "logo": "https://raw.githubusercontent.com/AkkunYo/kiro4cpa-plugin/main/assets/kiro-logo.svg"
+    },
+    {
+      "id": "cpa-spark",
+      "name": "CPA Spark · 星火",
+      "description": "为 CLIProxyAPI 提供按账号与分组独立配置的定时预热，支持计划预览、执行记录及 CPA 主题继承。Account-pinned warmup and scheduling for CLIProxyAPI, with independent account/group tasks, schedule previews, execution history, and CPA appearance inheritance.",
+      "author": "heytl",
+      "repository": "https://github.com/heytl/cpa-spark",
+      "homepage": "https://github.com/heytl/cpa-spark",
+      "tags": [
+        "定时调度",
+        "账号预热",
+        "Scheduler",
+        "Account Warmup",
+        "Codex",
+        "Antigravity"
+      ],
+      "logo": "https://raw.githubusercontent.com/heytl/cpa-spark/main/logo.svg"
     }
   ]
 }
