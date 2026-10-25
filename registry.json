@@ -2090,6 +2090,24 @@
         "Quota"
       ],
       "logo": "https://raw.githubusercontent.com/AkkunYo/kiro4cpa-plugin/main/assets/kiro-logo.svg"
+    },
+    {
+      "id": "cpa-models-speed-test",
+      "name": "CPA 模型延迟测速",
+      "description": "在管理面板中一键并发批量测试所有配置渠道的模型首字延迟 (TTFT) 与可用性，支持并行与串行防限流双模式，提供类似代理软件（如 Clash、v2rayN）的直观测速体验。 / High-performance model latency benchmarking plugin for CLIProxyAPI, featuring lightweight streaming TTFT probe, parallel & serial anti-rate-limit modes, model enable/disable management and Clash-style dashboard.",
+      "author": "cinob",
+      "version": "1.0.1",
+      "repository": "https://github.com/cinob/cpa-models-speed-test",
+      "homepage": "https://github.com/cinob/cpa-models-speed-test",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "SpeedTest",
+        "TTFT",
+        "Benchmark",
+        "Dashboard",
+        "429"
+      ]
     }
   ]
 }
