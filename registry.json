@@ -463,7 +463,7 @@
       "name": "Grok Inspection",
       "description": "Background xAI/Grok account inspection for CPA, with permission, quota, login, and health classification; supports full/incremental/classify-scoped re-inspect and bulk actions.",
       "author": "ywddd",
-      "version": "0.1.7",
+      "version": "0.1.10",
       "repository": "https://github.com/ywddd/grok-inspection",
       "homepage": "https://github.com/ywddd/grok-inspection",
       "license": "MIT",
@@ -702,7 +702,7 @@
       "name": "Codex Auto Reset",
       "description": "Automatically redeems soonest-expiring Codex Reset Bank credits before they expire, with idempotent retry, triple verification, and a bilingual management UI with reset statistics.",
       "author": "Jeffery",
-      "version": "0.1.8",
+      "version": "0.1.10",
       "repository": "https://github.com/JefferyZhang2019/cpa-plugin-codex-auto-reset",
       "homepage": "https://github.com/JefferyZhang2019/cpa-plugin-codex-auto-reset",
       "license": "MIT",
@@ -978,7 +978,7 @@
       "name": "API Key 管理器",
       "description": "为 CLIProxyAPI API Key 增加名称、备注，并提供 API Key 的增删改查管理页面。",
       "author": "bmqy",
-      "version": "0.1.7",
+      "version": "0.1.10",
       "repository": "https://github.com/bmqy/cpa-plugin-apikey-manager",
       "homepage": "https://github.com/bmqy/cpa-plugin-apikey-manager",
       "tags": [
@@ -1469,7 +1469,7 @@
       "name": "CPA Account Concurrency",
       "description": "Cache-aware, per-account hard in-flight concurrency admission for CPA Pro accounts. Prevents upstream calls above the configured account limit and returns typed local capacity errors.",
       "author": "tsunheimat",
-      "version": "0.1.8",
+      "version": "0.1.10",
       "repository": "https://github.com/tsunheimat/cpa-courrency-plugin",
       "homepage": "https://github.com/tsunheimat/cpa-courrency-plugin",
       "license": "MIT",
@@ -2090,6 +2090,24 @@
         "Quota"
       ],
       "logo": "https://raw.githubusercontent.com/AkkunYo/kiro4cpa-plugin/main/assets/kiro-logo.svg"
+    },
+    {
+      "id": "opencode-go-oauth",
+      "name": "OpenCode Go oAuth Provider",
+      "description": "Adds OpenCode Go / Go Plus OAuth device login, full 44-model catalog across Chat Completions, Responses, Anthropic Messages, and Gemini protocols, and per-model allowance usage tracking.",
+      "author": "esauvisky",
+      "version": "0.1.10",
+      "repository": "https://github.com/esauvisky/CLIProxyAPI-OpenCode-Go-Plugin",
+      "homepage": "https://github.com/esauvisky/CLIProxyAPI-OpenCode-Go-Plugin",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "OAuth",
+        "OpenCode",
+        "Quota",
+        "Management"
+      ],
+      "logo": "https://raw.githubusercontent.com/esauvisky/CLIProxyAPI-OpenCode-Go-Plugin/main/assets/logo.png"
     }
   ]
 }
