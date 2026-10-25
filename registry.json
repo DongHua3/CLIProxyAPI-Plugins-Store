@@ -2090,6 +2090,21 @@
         "Quota"
       ],
       "logo": "https://raw.githubusercontent.com/AkkunYo/kiro4cpa-plugin/main/assets/kiro-logo.svg"
+    },
+    {
+      "id": "daybreak-blue",
+      "name": "Daybreak Models",
+      "description": "Adds the Daybreak Blue and Daybreak Red models to the CLIProxyAPI Codex model catalog.",
+      "author": "esauvisky",
+      "version": "0.2.3",
+      "repository": "https://github.com/esauvisky/CLIProxyAPI-Daybreak-Plugin",
+      "homepage": "https://github.com/esauvisky/CLIProxyAPI-Daybreak-Plugin",
+      "license": "MIT",
+      "tags": [
+        "Codex",
+        "Model"
+      ],
+      "logo": "https://raw.githubusercontent.com/esauvisky/CLIProxyAPI-Daybreak-Plugin/main/assets/logo.png"
     }
   ]
 }
