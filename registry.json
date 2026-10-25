@@ -2090,6 +2090,24 @@
         "Quota"
       ],
       "logo": "https://raw.githubusercontent.com/AkkunYo/kiro4cpa-plugin/main/assets/kiro-logo.svg"
+    },
+    {
+      "id": "model-list-tweaker",
+      "name": "Model List Tweaker",
+      "description": "Reorder, rename display names, append remaining quota percentages, and hide models in the global model catalog across Claude Code, OpenAI, Codex, Gemini, and Grok clients, with a built-in web editor.",
+      "author": "esauvisky",
+      "version": "0.3.5",
+      "repository": "https://github.com/esauvisky/CLIProxyAPI-Model-List-Tweaker-Plugin",
+      "homepage": "https://github.com/esauvisky/CLIProxyAPI-Model-List-Tweaker-Plugin",
+      "license": "MIT",
+      "tags": [
+        "Model",
+        "Catalog",
+        "Claude",
+        "Codex",
+        "Management"
+      ],
+      "logo": "https://raw.githubusercontent.com/esauvisky/CLIProxyAPI-Model-List-Tweaker-Plugin/main/assets/logo.png"
     }
   ]
 }
