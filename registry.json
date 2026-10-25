@@ -2108,6 +2108,27 @@
         "Dashboard",
         "429"
       ]
+    },
+    {
+      "id": "cpa-auth-zai",
+      "name": "z.ai GLM Coding Plan",
+      "description": "Adds z.ai GLM Coding Plan browser sign-in, model discovery, Chat Completions, Responses, Anthropic Messages, quota monitoring, and usage history.",
+      "author": "cr1cr1",
+      "repository": "https://github.com/cr1cr1/cpa-auth-zai",
+      "homepage": "https://github.com/cr1cr1/cpa-auth-zai",
+      "logo": "https://raw.githubusercontent.com/cr1cr1/cpa-auth-zai/refs/heads/main/zai.svg",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Auth",
+        "OAuth",
+        "z.ai",
+        "GLM",
+        "Executor",
+        "Quota",
+        "Usage",
+        "Streaming"
+      ]
     }
   ]
 }
