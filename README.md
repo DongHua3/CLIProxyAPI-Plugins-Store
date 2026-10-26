@@ -96,6 +96,21 @@ Each platform zip must contain the target dynamic library at the zip root:
 Nested dynamic libraries, absolute paths, zip-slip paths, mismatched filenames,
 and multiple dynamic libraries are rejected by the CLIProxyAPI installer.
 
+## Plugin Ordering
+
+The `plugins` array is ordered by pull request, not by where a pull request
+happens to insert its entry:
+
+- Plugins published by the `router-for-me` organization (the `repository`
+  owner is `router-for-me`) always appear at the top of the list.
+- Every other plugin is ordered by the number of the merged pull request that
+  first introduced it, from smallest to largest. When one pull request adds
+  multiple plugins, they keep the relative order used in that pull request.
+- Pull requests that only update an existing plugin's metadata (such as
+  `version`, `name`, `description`, `logo`, or `tags`) do not change the
+  entry's position. Renaming a plugin's `id` likewise keeps the original
+  entry's position.
+
 ## Adding A Plugin
 
 Open a pull request that updates only `registry.json` unless documentation also
