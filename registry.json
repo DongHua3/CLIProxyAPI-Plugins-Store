@@ -2208,6 +2208,17 @@
       "homepage": "https://github.com/endverse/cpa-cursor-plugin",
       "license": "MIT",
       "tags": ["Provider", "Cursor", "Claude", "Codex", "Responses"]
+    },
+    {
+      "id": "cpa-model-dock",
+      "name": "CPAModelDock",
+      "description": "Manage stable model aliases, per-alias automatic upgrades to the newest stable version of a model family, and a model whitelist enforced on both model lists and inference requests, from a Web UI in the management center.",
+      "author": "suk-6",
+      "version": "0.1.2",
+      "repository": "https://github.com/suk-6/cpa-model-dock",
+      "homepage": "https://github.com/suk-6/cpa-model-dock",
+      "license": "MIT",
+      "tags": ["Model Router", "Interceptor", "Management", "Security"]
     }
   ]
 }
