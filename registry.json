@@ -2208,6 +2208,21 @@
       "homepage": "https://github.com/endverse/cpa-cursor-plugin",
       "license": "MIT",
       "tags": ["Provider", "Cursor", "Claude", "Codex", "Responses"]
+    },
+    {
+      "id": "quota-rotator",
+      "name": "Smart Quota Rotator",
+      "description": "Quota-aware Codex and Antigravity account scheduling with credential discovery, provider-scoped pins, and separate Antigravity model-group display. Scheduling uses the configured Antigravity group.",
+      "author": "daodeqing",
+      "repository": "https://github.com/daodeqing/cpa-plugin-quota-rotator",
+      "homepage": "https://github.com/daodeqing/cpa-plugin-quota-rotator",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Quota",
+        "Codex",
+        "Antigravity"
+      ]
     }
   ]
 }
