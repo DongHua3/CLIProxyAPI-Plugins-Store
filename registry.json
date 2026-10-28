@@ -2246,6 +2246,17 @@
       "license": "MIT",
       "tags": ["Provider", "Today", "OAuth", "Quota", "Management"],
       "logo": "https://raw.githubusercontent.com/jzPPP3333/cpa-today-plugin/main/logo.png"
+    },
+    {
+      "id": "antigravity-prompt-filter",
+      "name": "Antigravity Prompt Filter",
+      "description": "Rewrites coding-client self-identification inside the request system prompt to Antigravity before the call reaches the upstream, covering Claude system fields, OpenAI Chat messages, OpenAI Responses instructions, and Gemini systemInstruction parts. | 在请求抵达上游前，按入口协议定位系统提示并把客户端自我标识改写为 Antigravity，覆盖 Claude、OpenAI Chat、OpenAI Responses 与 Gemini 四种入口协议。",
+      "author": "DongHua3",
+      "version": "0.4.0",
+      "repository": "https://github.com/DongHua3/cpa-plugin-antigravity",
+      "homepage": "https://github.com/DongHua3/cpa-plugin-antigravity",
+      "license": "MIT",
+      "tags": ["Interceptor"]
     }
   ]
 }
